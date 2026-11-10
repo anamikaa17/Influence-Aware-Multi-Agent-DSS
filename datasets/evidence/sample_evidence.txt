@@ -1,0 +1,19 @@
+Normal network traffic generally follows expected communication patterns.
+
+A sudden increase in traffic volume may indicate suspicious network behaviour.
+
+Repeated failed login attempts can indicate a brute force attack.
+
+Unexpected communication with unknown external IP addresses may indicate malicious activity.
+
+Port scanning involves attempts to connect to multiple ports on a target system.
+
+Denial of Service attacks may involve unusually high volumes of requests.
+
+Anomalous packet sizes and unusual connection durations can indicate network intrusion.
+
+Network traffic should be evaluated using multiple features rather than a single indicator.
+
+A high traffic volume alone does not prove that an attack is occurring.
+
+Security decisions should be supported by independent evidence.

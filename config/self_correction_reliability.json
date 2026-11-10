@@ -1,0 +1,118 @@
+{
+    "Traffic Agent": {
+        "confidence_bins": {
+            "0.5-0.6": {
+                "records": 1661,
+                "accuracy": 0.580373,
+                "mean_confidence": 0.549904
+            },
+            "0.6-0.7": {
+                "records": 1316,
+                "accuracy": 0.637538,
+                "mean_confidence": 0.651004
+            },
+            "0.7-0.8": {
+                "records": 1299,
+                "accuracy": 0.722864,
+                "mean_confidence": 0.749624
+            },
+            "0.8-0.9": {
+                "records": 1628,
+                "accuracy": 0.840909,
+                "mean_confidence": 0.853864
+            },
+            "0.9-1.0": {
+                "records": 29164,
+                "accuracy": 0.993794,
+                "mean_confidence": 0.994359
+            }
+        }
+    },
+    "Threat Agent": {
+        "confidence_bins": {
+            "0.5-0.6": {
+                "records": 2263,
+                "accuracy": 0.604065,
+                "mean_confidence": 0.550598
+            },
+            "0.6-0.7": {
+                "records": 4285,
+                "accuracy": 0.743991,
+                "mean_confidence": 0.630879
+            },
+            "0.7-0.8": {
+                "records": 1386,
+                "accuracy": 0.842713,
+                "mean_confidence": 0.749031
+            },
+            "0.8-0.9": {
+                "records": 2488,
+                "accuracy": 0.95418,
+                "mean_confidence": 0.857648
+            },
+            "0.9-1.0": {
+                "records": 24646,
+                "accuracy": 0.99931,
+                "mean_confidence": 0.985476
+            }
+        }
+    },
+    "Behaviour Agent": {
+        "confidence_bins": {
+            "0.5-0.6": {
+                "records": 1699,
+                "accuracy": 0.462036,
+                "mean_confidence": 0.541206
+            },
+            "0.6-0.7": {
+                "records": 1653,
+                "accuracy": 0.592257,
+                "mean_confidence": 0.649349
+            },
+            "0.7-0.8": {
+                "records": 1176,
+                "accuracy": 0.710884,
+                "mean_confidence": 0.74878
+            },
+            "0.8-0.9": {
+                "records": 1950,
+                "accuracy": 0.889231,
+                "mean_confidence": 0.860935
+            },
+            "0.9-1.0": {
+                "records": 28590,
+                "accuracy": 0.991466,
+                "mean_confidence": 0.98674
+            }
+        }
+    },
+    "Risk Agent": {
+        "confidence_bins": {
+            "0.5-0.6": {
+                "records": 1297,
+                "accuracy": 0.545104,
+                "mean_confidence": 0.550333
+            },
+            "0.6-0.7": {
+                "records": 1317,
+                "accuracy": 0.656796,
+                "mean_confidence": 0.648939
+            },
+            "0.7-0.8": {
+                "records": 1286,
+                "accuracy": 0.718507,
+                "mean_confidence": 0.747387
+            },
+            "0.8-0.9": {
+                "records": 1515,
+                "accuracy": 0.842904,
+                "mean_confidence": 0.851626
+            },
+            "0.9-1.0": {
+                "records": 29653,
+                "accuracy": 0.994874,
+                "mean_confidence": 0.994553
+            }
+        }
+    }
+}

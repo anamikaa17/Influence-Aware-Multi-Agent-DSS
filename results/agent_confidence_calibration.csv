@@ -1,0 +1,5 @@
+Agent,Accuracy,Mean Confidence,Brier Score,ECE
+Traffic Agent,0.943709,0.944834,0.038615,0.004011
+Threat Agent,0.933215,0.89567,0.050491,0.037546
+Behaviour Agent,0.931904,0.934275,0.042847,0.013224
+Risk Agent,0.948842,0.949905,0.034699,0.002196

@@ -1,0 +1,230 @@
+{
+    "Traffic Agent": {
+        "0.50-0.60": {
+            "samples": 1590,
+            "average_confidence": 0.5478103386920337,
+            "actual_accuracy": 0.5792452830188679,
+            "smoothed_accuracy": 0.6202225907074497,
+            "prior_accuracy": 0.9459921868316747,
+            "calibration_gap": -0.03143494432683425,
+            "smoothed_calibration_gap": -0.027922660044506397,
+            "shrinkage_factor": 0.888268156424581,
+            "reliability_adjustment": 1.0
+        },
+        "0.60-0.70": {
+            "samples": 1210,
+            "average_confidence": 0.6512935208981828,
+            "actual_accuracy": 0.6272727272727273,
+            "smoothed_accuracy": 0.6724811612527198,
+            "prior_accuracy": 0.9459921868316747,
+            "calibration_gap": 0.024020793625455505,
+            "smoothed_calibration_gap": 0.02061358885588735,
+            "shrinkage_factor": 0.8581560283687943,
+            "reliability_adjustment": 0.9793864111441126
+        },
+        "0.70-0.80": {
+            "samples": 1362,
+            "average_confidence": 0.7459283836982777,
+            "actual_accuracy": 0.7327459618208517,
+            "smoothed_accuracy": 0.7600502159835691,
+            "prior_accuracy": 0.9459921868316747,
+            "calibration_gap": 0.01318242187742602,
+            "smoothed_calibration_gap": 0.011494531752275442,
+            "shrinkage_factor": 0.8719590268886044,
+            "reliability_adjustment": 0.9885054682477246
+        },
+        "0.80-0.90": {
+            "samples": 1535,
+            "average_confidence": 0.8508416174277691,
+            "actual_accuracy": 0.8462540716612378,
+            "smoothed_accuracy": 0.8577512607298761,
+            "prior_accuracy": 0.9459921868316747,
+            "calibration_gap": 0.004587545766531309,
+            "smoothed_calibration_gap": 0.004058722047046432,
+            "shrinkage_factor": 0.8847262247838616,
+            "reliability_adjustment": 0.9959412779529536
+        },
+        "0.90-1.00": {
+            "samples": 29372,
+            "average_confidence": 0.9948509187241418,
+            "actual_accuracy": 0.9940759907394798,
+            "smoothed_accuracy": 0.9937507925526287,
+            "prior_accuracy": 0.9459921868316747,
+            "calibration_gap": 0.0007749279846619439,
+            "smoothed_calibration_gap": 0.0007696870271030237,
+            "shrinkage_factor": 0.9932368456648181,
+            "reliability_adjustment": 0.999230312972897
+        }
+    },
+    "Threat Agent": {
+        "0.50-0.60": {
+            "samples": 1794,
+            "average_confidence": 0.5508474818088108,
+            "actual_accuracy": 0.5947603121516165,
+            "smoothed_accuracy": 0.6288966274339858,
+            "prior_accuracy": 0.9350993755168382,
+            "calibration_gap": -0.04391283034280569,
+            "smoothed_calibration_gap": -0.03950833381895356,
+            "shrinkage_factor": 0.8996990972918756,
+            "reliability_adjustment": 1.0
+        },
+        "0.60-0.70": {
+            "samples": 4280,
+            "average_confidence": 0.6291635987108913,
+            "actual_accuracy": 0.7467289719626168,
+            "smoothed_accuracy": 0.7551383649784302,
+            "prior_accuracy": 0.9350993755168382,
+            "calibration_gap": -0.11756537325172545,
+            "smoothed_calibration_gap": -0.11231691908870199,
+            "shrinkage_factor": 0.9553571428571429,
+            "reliability_adjustment": 1.0
+        },
+        "0.70-0.80": {
+            "samples": 1413,
+            "average_confidence": 0.7476752324780853,
+            "actual_accuracy": 0.7975937721160651,
+            "smoothed_accuracy": 0.8146434439574505,
+            "prior_accuracy": 0.9350993755168382,
+            "calibration_gap": -0.049918539637979764,
+            "smoothed_calibration_gap": -0.04372901209452288,
+            "shrinkage_factor": 0.8760074395536268,
+            "reliability_adjustment": 1.0
+        },
+        "0.80-0.90": {
+            "samples": 1683,
+            "average_confidence": 0.8572251175068113,
+            "actual_accuracy": 0.9185977421271538,
+            "smoothed_accuracy": 0.9203504381855377,
+            "prior_accuracy": 0.9350993755168382,
+            "calibration_gap": -0.06137262462034254,
+            "smoothed_calibration_gap": -0.05485402402338635,
+            "shrinkage_factor": 0.8937865108868827,
+            "reliability_adjustment": 1.0
+        },
+        "0.90-1.00": {
+            "samples": 25899,
+            "average_confidence": 0.9896523564343871,
+            "actual_accuracy": 0.9983783157650875,
+            "smoothed_accuracy": 0.9978934010921249,
+            "prior_accuracy": 0.9350993755168382,
+            "calibration_gap": -0.008725959330700417,
+            "smoothed_calibration_gap": -0.008659091179961305,
+            "shrinkage_factor": 0.9923368711444883,
+            "reliability_adjustment": 1.0
+        }
+    },
+    "Behaviour Agent": {
+        "0.50-0.60": {
+            "samples": 1717,
+            "average_confidence": 0.5417344533492878,
+            "actual_accuracy": 0.45777518928363425,
+            "smoothed_accuracy": 0.5074017207272412,
+            "prior_accuracy": 0.9334454931706065,
+            "calibration_gap": 0.08395926406565357,
+            "smoothed_calibration_gap": 0.075199820761986,
+            "shrinkage_factor": 0.8956703182055294,
+            "reliability_adjustment": 0.924800179238014
+        },
+        "0.60-0.70": {
+            "samples": 1571,
+            "average_confidence": 0.648829258063219,
+            "actual_accuracy": 0.5830681094844048,
+            "smoothed_accuracy": 0.6226364193303903,
+            "prior_accuracy": 0.9334454931706065,
+            "calibration_gap": 0.06576114857881421,
+            "smoothed_calibration_gap": 0.05833470605156247,
+            "shrinkage_factor": 0.8870694522868436,
+            "reliability_adjustment": 0.9416652939484376
+        },
+        "0.70-0.80": {
+            "samples": 1168,
+            "average_confidence": 0.7505680505139656,
+            "actual_accuracy": 0.723458904109589,
+            "smoothed_accuracy": 0.7541586978319601,
+            "prior_accuracy": 0.9334454931706065,
+            "calibration_gap": 0.02710914640437656,
+            "smoothed_calibration_gap": 0.02314582090666069,
+            "shrinkage_factor": 0.8538011695906432,
+            "reliability_adjustment": 0.9768541790933393
+        },
+        "0.80-0.90": {
+            "samples": 1772,
+            "average_confidence": 0.8551853440876579,
+            "actual_accuracy": 0.8933408577878104,
+            "smoothed_accuracy": 0.8974082650274449,
+            "prior_accuracy": 0.9334454931706065,
+            "calibration_gap": -0.038155513700152466,
+            "smoothed_calibration_gap": -0.03428578614435607,
+            "shrinkage_factor": 0.8985801217038539,
+            "reliability_adjustment": 1.0
+        },
+        "0.90-1.00": {
+            "samples": 28841,
+            "average_confidence": 0.9862421105171086,
+            "actual_accuracy": 0.9918172046739018,
+            "smoothed_accuracy": 0.9914152094843194,
+            "prior_accuracy": 0.9334454931706065,
+            "calibration_gap": -0.005575094156793137,
+            "smoothed_calibration_gap": -0.005536699513655551,
+            "shrinkage_factor": 0.9931131848076857,
+            "reliability_adjustment": 1.0
+        }
+    },
+    "Risk Agent": {
+        "0.50-0.60": {
+            "samples": 1321,
+            "average_confidence": 0.5492523072628405,
+            "actual_accuracy": 0.5435276305828918,
+            "smoothed_accuracy": 0.5969286172358358,
+            "prior_accuracy": 0.9496421340785309,
+            "calibration_gap": 0.0057246766799486926,
+            "smoothed_calibration_gap": 0.004971924979758201,
+            "shrinkage_factor": 0.8685075608152532,
+            "reliability_adjustment": 0.9950280750202418
+        },
+        "0.60-0.70": {
+            "samples": 1279,
+            "average_confidence": 0.6523392853588792,
+            "actual_accuracy": 0.6598905394839718,
+            "smoothed_accuracy": 0.6990726347638311,
+            "prior_accuracy": 0.9496421340785309,
+            "calibration_gap": -0.00755125412509261,
+            "smoothed_calibration_gap": -0.006530124425959059,
+            "shrinkage_factor": 0.8647734956051386,
+            "reliability_adjustment": 1.0
+        },
+        "0.70-0.80": {
+            "samples": 1261,
+            "average_confidence": 0.7495521537046769,
+            "actual_accuracy": 0.7335448057097541,
+            "smoothed_accuracy": 0.7631269177383342,
+            "prior_accuracy": 0.9496421340785309,
+            "calibration_gap": 0.01600734799492276,
+            "smoothed_calibration_gap": 0.013816061479532923,
+            "shrinkage_factor": 0.8631074606433949,
+            "reliability_adjustment": 0.986183938520467
+        },
+        "0.80-0.90": {
+            "samples": 1415,
+            "average_confidence": 0.851203575902525,
+            "actual_accuracy": 0.831095406360424,
+            "smoothed_accuracy": 0.8457761156753598,
+            "prior_accuracy": 0.9496421340785309,
+            "calibration_gap": 0.02010816954210104,
+            "smoothed_calibration_gap": 0.017617993747413605,
+            "shrinkage_factor": 0.8761609907120743,
+            "reliability_adjustment": 0.9823820062525864
+        },
+        "0.90-1.00": {
+            "samples": 29793,
+            "average_confidence": 0.9954959792901339,
+            "actual_accuracy": 0.9948645655019636,
+            "smoothed_accuracy": 0.994563012263385,
+            "prior_accuracy": 0.9496421340785309,
+            "calibration_gap": 0.0006314137881703319,
+            "smoothed_calibration_gap": 0.0006272033804874036,
+            "shrinkage_factor": 0.9933317774147301,
+            "reliability_adjustment": 0.9993727966195126
+        }
+    }
+}

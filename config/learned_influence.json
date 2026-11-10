@@ -1,0 +1,130 @@
+{
+    "nodes": {
+        "Traffic Agent": {
+            "reliability": 0.945138920571194,
+            "normal_reliability": 0.9,
+            "attack_reliability": 0.9,
+            "normal_precision": 0.9169423270530707,
+            "attack_precision": 0.9582080577269994,
+            "normal_samples": 13904,
+            "attack_samples": 29932,
+            "influence_score": 0.9288491274906254
+        },
+        "Threat Agent": {
+            "reliability": 0.9351019663305807,
+            "normal_reliability": 0.85,
+            "attack_reliability": 0.85,
+            "normal_precision": 0.9616021185038067,
+            "attack_precision": 0.9249905529663686,
+            "normal_samples": 12082,
+            "attack_samples": 31754,
+            "influence_score": 1.017070483493648
+        },
+        "Behaviour Agent": {
+            "reliability": 0.9327524065878918,
+            "normal_reliability": 0.7,
+            "attack_reliability": 0.7,
+            "normal_precision": 0.8626550298576022,
+            "attack_precision": 0.9700709765392819,
+            "normal_samples": 15237,
+            "attack_samples": 28599,
+            "influence_score": 1.073027881895761
+        },
+        "Risk Agent": {
+            "reliability": 0.9497696062776586,
+            "normal_reliability": 0.55,
+            "attack_reliability": 0.55,
+            "normal_precision": 0.9195050842636706,
+            "attack_precision": 0.9640326426436512,
+            "normal_samples": 14061,
+            "attack_samples": 29775,
+            "influence_score": 0.9810525071199657
+        }
+    },
+    "edges": [
+        {
+            "source": "Traffic Agent",
+            "target": "Threat Agent",
+            "base_weight": 0.0754926193095099,
+            "information_gain": 0.0754926193095099,
+            "influence": 0.3193866887983057
+        },
+        {
+            "source": "Traffic Agent",
+            "target": "Behaviour Agent",
+            "base_weight": 0.07596199024042333,
+            "information_gain": 0.07596199024042333,
+            "influence": 0.35931179669105273
+        },
+        {
+            "source": "Traffic Agent",
+            "target": "Risk Agent",
+            "base_weight": 0.02673154887704185,
+            "information_gain": 0.02673154887704185,
+            "influence": 0.25015064200126697
+        },
+        {
+            "source": "Threat Agent",
+            "target": "Traffic Agent",
+            "base_weight": 0.04694609358846849,
+            "information_gain": 0.04694609358846849,
+            "influence": 0.31958536403964405
+        },
+        {
+            "source": "Threat Agent",
+            "target": "Behaviour Agent",
+            "base_weight": 0.06525178295326883,
+            "information_gain": 0.06525178295326883,
+            "influence": 0.30537314824378053
+        },
+        {
+            "source": "Threat Agent",
+            "target": "Risk Agent",
+            "base_weight": 0.0423515471769029,
+            "information_gain": 0.0423515471769029,
+            "influence": 0.3921119712102234
+        },
+        {
+            "source": "Behaviour Agent",
+            "target": "Traffic Agent",
+            "base_weight": 0.05843880443270011,
+            "information_gain": 0.05843880443270011,
+            "influence": 0.39682237494198647
+        },
+        {
+            "source": "Behaviour Agent",
+            "target": "Threat Agent",
+            "base_weight": 0.07627512286658703,
+            "information_gain": 0.07627512286658703,
+            "influence": 0.3184681201652648
+        },
+        {
+            "source": "Behaviour Agent",
+            "target": "Risk Agent",
+            "base_weight": 0.03873611854382644,
+            "information_gain": 0.03873611854382644,
+            "influence": 0.35773738678850964
+        },
+        {
+            "source": "Risk Agent",
+            "target": "Traffic Agent",
+            "base_weight": 0.041015466570581444,
+            "information_gain": 0.041015466570581444,
+            "influence": 0.2835922610183694
+        },
+        {
+            "source": "Risk Agent",
+            "target": "Threat Agent",
+            "base_weight": 0.0851819905914839,
+            "information_gain": 0.0851819905914839,
+            "influence": 0.36214519103642956
+        },
+        {
+            "source": "Risk Agent",
+            "target": "Behaviour Agent",
+            "base_weight": 0.07054322204508925,
+            "information_gain": 0.07054322204508925,
+            "influence": 0.3353150550651668
+        }
+    ]
+}

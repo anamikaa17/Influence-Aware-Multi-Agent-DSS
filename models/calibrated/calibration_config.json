@@ -1,0 +1,18 @@
+{
+    "Traffic Agent": {
+        "model_path": "models/calibrated\\traffic_agent_calibrated.joblib",
+        "calibration_method": "sigmoid"
+    },
+    "Threat Agent": {
+        "model_path": "models/calibrated\\threat_agent_calibrated.joblib",
+        "calibration_method": "sigmoid"
+    },
+    "Behaviour Agent": {
+        "model_path": "models/calibrated\\behaviour_agent_calibrated.joblib",
+        "calibration_method": "sigmoid"
+    },
+    "Risk Agent": {
+        "model_path": "models/calibrated\\risk_agent_calibrated.joblib",
+        "calibration_method": "sigmoid"
+    }
+}

@@ -1,0 +1,15 @@
+
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.vscode/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+*.log
+.DS_Store
+self_correction_log.txt
+/multiagent

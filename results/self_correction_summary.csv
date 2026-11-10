@@ -1,0 +1,3 @@
+Method,Accuracy,Macro F1
+Majority Before Correction,0.964,0.9589086127547666
+Evidence-Based After Correction,0.964,0.9589086127547666

@@ -1,0 +1,46 @@
+{
+    "Traffic Agent": {
+        "accuracy": 0.9459921868316747,
+        "macro_f1": 0.9377376541942659,
+        "normal_precision": 0.9191136732120339,
+        "attack_precision": 0.9583663593508823,
+        "normal_prediction_count": 11100,
+        "attack_prediction_count": 23969,
+        "normal_correct_predictions": 10203,
+        "attack_correct_predictions": 22972,
+        "overall_reliability": 0.9459667531578797
+    },
+    "Threat Agent": {
+        "accuracy": 0.9350993755168382,
+        "macro_f1": 0.9223265808089607,
+        "normal_precision": 0.9623834196891192,
+        "attack_precision": 0.924674507335877,
+        "normal_prediction_count": 9648,
+        "attack_prediction_count": 25421,
+        "normal_correct_predictions": 9286,
+        "attack_correct_predictions": 23507,
+        "overall_reliability": 0.9350745630292835
+    },
+    "Behaviour Agent": {
+        "accuracy": 0.9334454931706065,
+        "macro_f1": 0.9251432484755483,
+        "normal_precision": 0.8635990813648294,
+        "attack_precision": 0.9705869498710721,
+        "normal_prediction_count": 12190,
+        "attack_prediction_count": 22879,
+        "normal_correct_predictions": 10528,
+        "attack_correct_predictions": 22207,
+        "overall_reliability": 0.9334207749992871
+    },
+    "Risk Agent": {
+        "accuracy": 0.9496421340785309,
+        "macro_f1": 0.9421246544357502,
+        "normal_precision": 0.9199608262108262,
+        "attack_precision": 0.9635501866532444,
+        "normal_prediction_count": 11230,
+        "attack_prediction_count": 23839,
+        "normal_correct_predictions": 10332,
+        "attack_correct_predictions": 22971,
+        "overall_reliability": 0.9496164922585612
+    }
+}

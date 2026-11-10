@@ -1,0 +1,17 @@
+target_agent,metric,comparison,mean_difference,wilcoxon_statistic,p_value
+Traffic Agent,accuracy,Adaptive vs Majority Voting,0.00477629815506575,0.0,0.001953125
+Traffic Agent,accuracy,Adaptive vs Fixed Influence,8.554563859819453e-05,0.0,0.001953125
+Traffic Agent,macro_f1,Adaptive vs Majority Voting,0.004512569185295845,0.0,0.001953125
+Traffic Agent,macro_f1,Adaptive vs Fixed Influence,0.00010920506697320587,0.0,0.001953125
+Threat Agent,accuracy,Adaptive vs Majority Voting,0.0052239869970629686,0.0,0.001953125
+Threat Agent,accuracy,Adaptive vs Fixed Influence,0.0038951780775043467,0.0,0.001953125
+Threat Agent,macro_f1,Adaptive vs Majority Voting,0.005216579762049178,0.0,0.001953125
+Threat Agent,macro_f1,Adaptive vs Fixed Influence,0.00443680684970954,0.0,0.001953125
+Behaviour Agent,accuracy,Adaptive vs Majority Voting,0.0015597821437737468,0.0,0.001953125
+Behaviour Agent,accuracy,Adaptive vs Fixed Influence,0.001636773218512122,0.0,0.001953125
+Behaviour Agent,macro_f1,Adaptive vs Majority Voting,0.0008446022994599734,0.0,0.001953125
+Behaviour Agent,macro_f1,Adaptive vs Fixed Influence,0.0018813333921262054,0.0,0.001953125
+Risk Agent,accuracy,Adaptive vs Majority Voting,0.004143260429439077,0.0,0.001953125
+Risk Agent,accuracy,Adaptive vs Fixed Influence,0.004322906270495264,0.0,0.001953125
+Risk Agent,macro_f1,Adaptive vs Majority Voting,0.0036014007479099218,0.0,0.001953125
+Risk Agent,macro_f1,Adaptive vs Fixed Influence,0.004780725881588776,0.0,0.001953125
